@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glowny SYSTEM "zad2.dtd">
+
+<glowny>
+<podrzedny atrybut1="a" atrybut2="cos" atrybut3="w1"></podrzedny>
+<podrzedny atrybut1="b" atrybut3="w1"></podrzedny>
+<podrzedny atrybut1="c" atrybut2="cos" atrybut3="w2"></podrzedny>
+<podrzedny atrybut1="d" atrybut2="cos"></podrzedny>
+<podrzedny atrybut1="e" atrybut3="w2"></podrzedny>
+</glowny>
+
+
+
+<!--
+Zadanie 2. Stwórz plik DTD zawierający deklarację elementów i atrybutów takich, że element główny o nazwie glowny zawiera pięć elementów podrzędnych o nazwie podrzedny, które:
+zawierają atrybut o nazwie atrybut1 z unikalnymi wartościami. Atrybut wartosc musi zostać obowiązkowo podany.
+zawierają atrybut o nazwie atrybut2, który może przyjąć wartość jedynie "cos". Użycie atrybutu jest opcjonalne.
+zawierają atrybut o nazwie atrybut3, które przyjmują wartość: "w1", "w2" lub "w3". Wartość "w1 jest domyślna.
+Przetestuj działanie DTD na pliku XML.
+-->

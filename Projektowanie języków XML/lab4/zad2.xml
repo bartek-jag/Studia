@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE wyniki SYSTEM "zad2.dtd">
+<wyniki>
+	<przedmiot>
+		<nazwa>&alg;</nazwa>
+		<egzaminator>
+			<tytul>&dr;</tytul>
+			<imie>Pankracy</imie>
+			<nazwisko>Bajeczny</nazwisko>
+		</egzaminator>
+		<rodzaj>&wyk;</rodzaj>
+		<ocena>&dbp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&alg;</nazwa>
+		<egzaminator>
+			<tytul>&prof;, &dr; &hab;</tytul>
+			<imie>Bianor</imie>
+			<nazwisko>Łysy</nazwisko>
+		</egzaminator>
+		<rodzaj>&cau;</rodzaj>
+		<ocena>&dstp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&mat;</nazwa>
+		<egzaminator>
+			<tytul>&dr; &hab;</tytul>
+			<imie>Marcel</imie>
+			<nazwisko>Chabacki</nazwisko>
+		</egzaminator>
+		<rodzaj>&wyk;</rodzaj>
+		<ocena>&dstp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&mat;</nazwa>
+		<egzaminator>
+			<tytul>&mgr;</tytul>
+			<imie>Klet</imie>
+			<nazwisko>Zabacki</nazwisko>
+		</egzaminator>
+		<rodzaj>&cau;</rodzaj>
+		<ocena>&dstp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&prog;</nazwa>
+		<egzaminator>
+			<tytul>&dr;</tytul>
+			<imie>Amon</imie>
+			<nazwisko>Fabacki</nazwisko>
+		</egzaminator>
+		<rodzaj>&wyk;</rodzaj>
+		<ocena>&dst;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&prog;</nazwa>
+		<egzaminator>
+			<tytul>&dr;</tytul>
+			<imie>Fidol</imie>
+			<nazwisko>Jadacki</nazwisko>
+		</egzaminator>
+		<rodzaj>&cau;</rodzaj>
+		<ocena>&dbp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&prog;</nazwa>
+		<egzaminator>
+			<tytul>&mgr;</tytul>
+			<imie>Klet</imie>
+			<nazwisko>Zabacki</nazwisko>
+		</egzaminator>
+		<rodzaj>&cla;</rodzaj>
+		<ocena>&dbp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&siec;</nazwa>
+		<egzaminator>
+			<tytul>&dr; &inz;</tytul>
+			<imie>Kanizjusz</imie>
+			<nazwisko>Miłosierny</nazwisko>
+		</egzaminator>
+		<rodzaj>&wyk;</rodzaj>
+		<ocena>&dbp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&siec;</nazwa>
+		<egzaminator>
+			<tytul>&dr;</tytul>
+			<imie>Pankracy</imie>
+			<nazwisko>Bajeczny</nazwisko>
+		</egzaminator>
+		<rodzaj>&cau;</rodzaj>
+		<ocena>&dst;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&sys;</nazwa>
+		<egzaminator>
+			<tytul>&dr; &inz;</tytul>
+			<imie>Ksawery</imie>
+			<nazwisko>Melon</nazwisko>
+		</egzaminator>
+		<rodzaj>&wyk;</rodzaj>
+		<ocena>&dbp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>&sys;</nazwa>
+		<egzaminator>
+			<tytul>&dr; &inz;</tytul>
+			<imie>Ksawery</imie>
+			<nazwisko>Melon</nazwisko>
+		</egzaminator>
+		<rodzaj>&cla;</rodzaj>
+		<ocena>&dbp;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>XML</nazwa>
+		<egzaminator>
+			<tytul>&prof;, &dr; &hab;</tytul>
+			<imie>Ramzes</imie>
+			<nazwisko>Koniczyna</nazwisko>
+		</egzaminator>
+		<rodzaj>&wyk;</rodzaj>
+		<ocena>&bdb;</ocena>
+	</przedmiot>
+	<przedmiot>
+		<nazwa>XML</nazwa>
+		<egzaminator>
+			<tytul>&dr;</tytul>
+			<imie>Scholastyka</imie>
+			<nazwisko>Bławatek</nazwisko>
+		</egzaminator>
+		<rodzaj>&cla;</rodzaj>
+		<ocena>&bdb;</ocena>
+	</przedmiot>
+</wyniki>
+
+
+

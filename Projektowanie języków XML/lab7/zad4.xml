@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<firma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zad4.xsd">
+    <produkt id="a1">
+        <nazwa>AA</nazwa>
+        <producent>aB</producent>
+        <cena>10</cena>
+    </produkt>
+    <produkt id="a2">
+        <nazwa>AA</nazwa>
+        <producent>AB</producent>
+        <cena>10</cena>
+    </produkt>
+    <zakup id_produkt="a1">
+        <data_zakupu>11</data_zakupu>
+        <ilosc>11</ilosc>
+    </zakup>
+</firma>

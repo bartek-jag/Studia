@@ -1,0 +1,19 @@
+zad1    lista/osoba[@plec="k"]
+zad2    lista/osoba[wiek>=20 and wiek<=40]
+zad3    lista/osoba[3]
+zad4    lista/osoba[adres/miejsce="Gdynia"]
+zad5    lista/osoba[not(opis)]
+zad6    lista/osoba[imie!="Abira" and imie!="Borys"]
+zad7    lista/osoba[position()>last()-3]/[self::imie or self::nazwisko]
+zad8    lista/osoba[position()=last()]/[self::imie or self::nazwisko]
+zad9    lista/osoba[position() mod 2 = 0]/[self::imie or self::nazwisko]
+zad10   count(lista/osoba[@plec="m"])
+zad11   sum(lista/osoba[adres/miejsce="Olsztyn" or adres/miejsce="Gdynia"]/@id)
+zad12   lista/osoba[position()>=7]/descendant-or-self::*
+zad13   lista/osoba[wiek>=40]/@id
+zad14   lista/osoba[contains(@id, "8")]/@id
+zad15   lista/osoba[nazwisko="Bogata"]/preceding-sibling::[1]/adres/*zad16   lista/osoba[adres/@kraj!="Polska"][1]
+zad17   count(lista/osoba[starts-with(nazwisko, "N")])
+zad18   ceiling(lista/osoba[@id="331"]/wiek/text() div lista/osoba[@id="398"]/wiek/text())
+zad19   round(sum(lista/osoba/wiek/text()) div count(lista/osoba))
+zad20   string-length(lista/osoba[@id="754"]/imie/text()) + string-length(lista/osoba[@id="974"]/adres/ulica/text())

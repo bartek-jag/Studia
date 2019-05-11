@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<lista>
+	<osoba>
+		<imie>Nadia</imie>
+		<nazwisko>Ebacka</nazwisko>
+		<wiek>45</wiek>
+	</osoba>
+	<osoba>
+		<imie>Ksawery</imie>
+		<nazwisko>Melon</nazwisko>
+		<wiek>24</wiek>
+	</osoba>
+	<osoba>
+		<imie>Borys</imie>
+		<nazwisko>Pokrzyk</nazwisko>
+		<wiek>33</wiek>
+	</osoba>
+	<osoba>
+		<imie>Balladyna</imie>
+		<nazwisko>Malina</nazwisko>
+		<wiek>68</wiek>
+	</osoba>
+	<osoba>
+		<imie>Dafroza</imie>
+		<nazwisko>Trawnik</nazwisko>
+		<wiek>41</wiek>
+	</osoba>
+	<osoba>
+		<imie>Abira</imie>
+		<nazwisko>Bogata</nazwisko>
+		<wiek>27</wiek>
+	</osoba>
+	<osoba>
+		<imie>Felin</imie>
+		<nazwisko>Dziurawiec</nazwisko>
+		<wiek>30</wiek>
+	</osoba>
+	<osoba>
+		<imie>Grzymisława</imie>
+		<nazwisko>Chmiel</nazwisko>
+		<wiek>35</wiek>
+	</osoba>
+	<osoba>
+		<imie>Benicjusz</imie>
+		<nazwisko>Naparczywy</nazwisko>
+		<wiek>32</wiek>
+	</osoba>
+	<osoba>
+		<imie>Długomił</imie>
+		<nazwisko>Cytrynka</nazwisko>
+		<wiek>44</wiek>
+	</osoba>
+</lista>

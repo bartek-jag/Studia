@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<lista>
+	<osoba>
+		<imie>Nadia</imie>
+		<nazwisko>Ebacka</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Ksawery</imie>
+		<nazwisko>Melon</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Borys</imie>
+		<nazwisko>Pokrzyk</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Balladyna</imie>
+		<nazwisko>Malina</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Dafroza</imie>
+		<nazwisko>Trawnik</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Abira</imie>
+		<nazwisko>Bogata</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Felin</imie>
+		<nazwisko>Dziurawiec</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Grzymisława</imie>
+		<nazwisko>Chmiel</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Benicjusz</imie>
+		<nazwisko>Naparczywy</nazwisko>
+	</osoba>
+	<osoba>
+		<imie>Długomił</imie>
+		<nazwisko>Cytrynka</nazwisko>
+	</osoba>
+</lista>

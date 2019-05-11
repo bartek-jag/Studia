@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ENTITY % nowa "INCLUDE">
+<!ENTITY % stara "IGNORE">
+
+
+<![%stara; [
+       <!ELEMENT matura (ocena)>
+       <!ELEMENT ocena (#PCDATA)>
+]]>
+
+<![%nowa; [
+       <!ELEMENT matura (punkty, procenty)>
+       <!ELEMENT punkty (#PCDATA)>
+       <!ELEMENT procenty (#PCDATA)>
+]]>
+

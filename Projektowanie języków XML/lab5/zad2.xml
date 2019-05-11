@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<zamowienie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zad2.xsd">
+	<cena>100</cena>
+	<adres>Adresowa 1</adres>
+	<kontakt>123456789</kontakt>
+	<towar>Towar</towar>
+</zamowienie>
+
+
+
+<!--
+Zadanie 2. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie zamowienie będzie zawierał elementy:
+cena - występuje dokładnie raz.
+adres - może raz, ale nie musi wystąpić.
+kontakt - może wystąpić wiele razy, ale nie musi.
+towar - występuje conajmniej raz i możę wystąpić maksymalnie 12 razy.
+Przetestuj działanie Schema na pliku XML.
+
+-->

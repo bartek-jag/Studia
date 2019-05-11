@@ -1,0 +1,14 @@
+#blok {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+#blok2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 224px;
+    border: solid orange 8px;
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="zamowienie">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="adres">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="miejsce" type="xsd:string"/>
+              <xsd:element name="ulica" type="xsd:string" minOccurs="0"/>
+              <xsd:element name="kod_pocztowy" type="xsd:string"/>
+            </xsd:sequence>
+            <xsd:attribute name="termin_dostarczenia" type="xsd:string" use="optional"/>
+            <xsd:attribute name="kraj" type="xsd:string" fixed="Polska"/>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="artykuly">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="artykul" minOccurs="1" maxOccurs="100">
+                <xsd:complexType>
+                  <xsd:choice>
+                    <xsd:element name="film">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="tytul" type="xsd:string"/>
+                          <xsd:element name="rezyser" type="xsd:string"/>
+                          <xsd:element name="rok_wydania" type="xsd:string"/>
+                          <xsd:element name="czas_trwania" type="xsd:string" minOccurs="0"/>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="ksiazka">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="tytul" type="xsd:string"/>
+                          <xsd:element name="autor" type="xsd:string"/>
+                          <xsd:element name="rok_wydania" type="xsd:string"/>
+                          <xsd:element name="nr_wydania" type="xsd:string"/>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="plyta">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="tytul" type="xsd:string"/>
+                          <xsd:element name="wykonawca" type="xsd:string"/>
+                          <xsd:element name="wydawca" type="xsd:string"/>
+                          <xsd:element name="rok_wydania" type="xsd:string"/>
+                          <xsd:element name="czas_trwania" type="xsd:string" minOccurs="0"/>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:choice>
+                  <xsd:attribute name="id" use="required"/>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="numer_zamowienia" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:key name="idArtykul">
+      <xsd:selector xpath="artykuly/artykul"/>
+      <xsd:field xpath="@id"/>
+    </xsd:key>
+  </xsd:element>
+</xsd:schema><!--
+
+Zadanie 6. (autor zadania: Ł. Pankowski) Utwórz plik XML dla dowolnego zamówienia zawierający dowolne artykuły oraz powiąż z nim odpowiedni plik Schema-XML. Struktura dokumentu:
+Element główny zamowienie
+powinien zawierać jeden element o nazwie adres.
+powinien zawierać jeden element o nazwie artkuly.
+powinien zawierać obowiązkowy atrybut o nazwie numer_zamowienia.
+Element adres
+powinien zawierać jeden element o nazwie miejsce.
+może zawierać element o nazwie ulica (użycie opcjonalne).
+powinien zawierać jeden element o nazwie kod_pocztowy.
+może zawierać nieobowiązkowy atrybut o nazwie termin_dostarczenia.
+powinien zawierać atrybut o nazwie kraj, który będzie miał wymuszoną wartość Polska.
+Element artykuly
+powinien zawierać 1-100 elementów o nazwie artykul.
+Element artykul
+powinien mieć atrybut obowiązkówy który będzie identyfikował artykul.
+powinien zawierać jeden element o nazwie film lub ksiazka lub plyta.
+powinien zawierać element ilość, który będze liczbą z zakresy 1-100, domyślnie 1.
+Element film
+powinien zawierać jeden element o nazwie tytul.
+powinien zawierać jeden element o nazwie rezyser.
+powinien zawierać jeden element o nazwie rok_wydania.
+może zawierać jeden element o nazwie czas_trwania, element opcjonalny.
+Element ksiazka
+powinien zawierać jeden element o nazwie tytul.
+powinien zawierać jeden element o nazwie autor.
+powinien zawierać jeden element o nazwie rok_wydania.
+powinien zawierać jeden element o nazwie nr_wydania.
+Element plyta
+powinien zawierać jeden element o nazwie tytul.
+powinien zawierać jeden element o nazwie wykonawca.
+powinien zawierać jeden element o nazwie wydawca.
+powinien zawierać jeden element o nazwie rok_wydania.
+może zawierać jeden element o nazwie czas_trwania, element opcjonalny.
+Elementy kod_pocztowy, czas_trwania, rok_wydania, nr_wydania, czas_trwania, miejsce, ulica, tytul, wykonawca, wydawca, rok_wydania, tytul, autor
+powinny zawierać wartość tekstową wewnątrz.
+Zastosuj odpowiedni typ danych do elementów i atrybutów. 
+-->

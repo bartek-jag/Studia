@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE zamowienie SYSTEM "zad6.dtd">
+
+
+
+<zamowienie numer_zamowienia="111">
+	<adres kraj="Polska" termin_dostarczenia="11.11.11">
+		<miejsce></miejsce>
+		<ulica></ulica>
+		<kod_pocztowy></kod_pocztowy>
+	</adres>
+
+	<artykuly>
+		<artykul id="haha">
+			<film>
+				<tytul>tytulowy</tytul>
+				<rezyser>Marcin</rezyser>
+				<rok_wydania>2000</rok_wydania>
+				<czas_trwania>200</czas_trwania>
+			</film>
+		</artykul>
+
+		<artykul id="haha2">
+			<ksiazka>
+				<tytul>takise</tytul>
+				<autor>Marcin</autor>
+				<rok_wydania>2000</rok_wydania>
+				<nr_wydania>200</nr_wydania>
+			</ksiazka>
+		</artykul>
+
+		<artykul id="haha3">
+			<plyta>
+				<tytul>tytulowy</tytul>
+				<wykonawca>Marcin</wykonawca>
+				<wydawca>Aleksander</wydawca>
+				<czas_trwania>202</czas_trwania>
+			</plyta>
+		</artykul>
+	</artykuly>
+
+
+
+</zamowienie>
+
+<!--
+Zadanie 6. (autor zadania: Ł. Pankowski) Utwórz plik XML dla dowolnej zamowienie zawierający dowolne produkty oraz powiąż z nim odpowiedni DTD. Struktura dokumentu:
+Element główny zamowienie
+powinien zawierać jeden element o nazwie adres.
+powinien zawierać jeden element o nazwie produkty.
+powinien zawierać obowiązkowy atrybut o nazwie numer_zamowienia.
+Element adres
+powinien zawierać jeden element o nazwie miejsce.
+może zawierać element o nazwie ulica (użycie opcjonalne).
+powinien zawierać jeden element o nazwie kod_pocztowy.
+może zawierać nieobowiązkowy atrybut o nazwie termin_dostarczenia.
+powinien zawierać atrybut o nazwie kraj, który będzie miał wymuszoną wartość Polska.
+
+Element artykuly
+powinien zawierać conajmniej jeden element o nazwie artykul.
+Element artykul
+powinien mieć atrybut obowiązkówy który będzie identyfikował artykul.
+powinien zawierać jeden element o nazwie film lub ksiazka lub plyta.
+Element film
+powinien zawierać jeden element o nazwie tytul.
+powinien zawierać jeden element o nazwie rezyser.
+powinien zawierać jeden element o nazwie rok_wydania.
+może zawierać jeden element o nazwie czas_trwania, element opcjonalny.
+Element ksiazka
+powinien zawierać jeden element o nazwie tytul.
+powinien zawierać jeden element o nazwie autor.
+powinien zawierać jeden element o nazwie rok_wydania.
+powinien zawierać jeden element o nazwie nr_wydania.
+Element plyta
+powinien zawierać jeden element o nazwie tytul.
+powinien zawierać jeden element o nazwie wykonawca.
+powinien zawierać jeden element o nazwie wydawca.
+powinien zawierać jeden element o nazwie rok_wydania.
+może zawierać jeden element o nazwie czas_trwania, element opcjonalny.
+Elementy kod_pocztowy, czas_trwania, rok_wydania, nr_wydania, czas_trwania, miejsce, ulica, tytul, wykonawca, wydawca, rok_wydania, tytul, autor
+powinny zawierać wartość tekstową wewnątrz.
+
+-->

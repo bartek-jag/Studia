@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT glowny (podrzedny, podrzedny, podrzedny, podrzedny, podrzedny+, pierwszy, pierwszy, pierwszy?, drugi, drugi, drugi?, ((parzysta, parzysta)* | (nieparzysta, (nieparzysta, nieparzysta)*)))>
+<!ELEMENT podrzedny ANY>
+<!ELEMENT pierwszy ANY>
+<!ELEMENT drugi ANY>
+<!ELEMENT parzysta ANY>
+<!ELEMENT nieparzysta ANY> 

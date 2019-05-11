@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT glowny (podrzedny, podrzedny, podrzedny, podrzedny, podrzedny)>
+<!ELEMENT podrzedny ANY>
+<!ATTLIST podrzedny atrybut1 ID #REQUIRED>
+<!ATTLIST podrzedny atrybut2 (cos) #IMPLIED >
+<!ATTLIST podrzedny atrybut3 (w1|w2|w3) "w1">

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="kolor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="czerwony" minOccurs="1" maxOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="liczba"/>
+                     </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="zielony" minOccurs="1" maxOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="liczba"/>
+                     </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="niebieski" minOccurs="1" maxOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="liczba"/>
+                     </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+	</xsd:element>
+
+    <xsd:simpleType name='liczba'>
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="255"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>
+
+
+<!--
+Zadanie 5. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie kolor, 
+będzie zawierał elementy o nazwie czerwony, zielony, niebieski kolejności, które będą zawierać liczbę naturalną z przedziału: 0 - 255.
+-->

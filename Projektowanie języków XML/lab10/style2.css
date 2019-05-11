@@ -1,0 +1,33 @@
+#kwadrat {
+    stroke: red;
+    stroke-width: 3px;
+    fill: cyan;
+    height: 100;
+    width: 100;
+    y: 10;
+    x: 10;
+}
+
+.linia {
+    stroke: red;
+}
+.strzalki {
+    marker-end: url(#arrow);
+    marker-start: url(#arrow);
+    stroke: black;
+}
+
+.figura {
+    stroke: red;
+    stroke-width: 3px;
+}
+
+#prostokat {
+    stroke: red;
+    stroke-width: 3px;
+    fill: yellow;
+    height: 100;
+    width: 200;
+    y: 10;
+    x: 200;
+}

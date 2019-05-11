@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <xsd:element name="osoby">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nauczyciele" type="typeOsoba"/>
+        <xsd:element name="uczniowie" type="typeOsoba"/>
+        <xsd:element name="pozostali" type="typeOsoba"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:complexType name="typeOsoba">
+    <xsd:sequence>
+      <xsd:element name="osoba">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="imie"/>
+            <xsd:element name="nazwisko"/>
+          </xsd:sequence>
+          <xsd:attribute name="plec" type="xsd:string"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
+
+
+
+
+<!--
+
+
+Zadanie 1. Stwórz plik XML-Schema dla pliku XML, zawierającego dane na temat pracowników i uczniów w szkole. Plik powinien zawierać 3 elementy: nauczyciele, uczniowe, pozostali, które będą zwierać odpowiednie dane na temat osób. Utwórz oraz wykorzystaj globalny element osoba oraz atrybut plec.
+-->

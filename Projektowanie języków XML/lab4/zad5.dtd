@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ENTITY zada SYSTEM "zad5a.xml">
+<!ENTITY zadb SYSTEM "zad5b.xml">
+<!ELEMENT glowny ANY>
+<!ELEMENT za ANY>
+<!ELEMENT zb ANY>

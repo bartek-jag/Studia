@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="latin2"?>
+<lista>
+	<osoba>
+		<imie>Nadia</imie>
+		<nazwisko>Ebacka</nazwisko>
+		<wiek>15</wiek>
+	</osoba>
+	
+	
+	<osoba>
+		<imie>Balladyna</imie>
+		<nazwisko>Malina</nazwisko>
+		<wiek>38</wiek>
+	</osoba>
+	<osoba>
+		<imie>Dafroza</imie>
+		<nazwisko>Trawnik</nazwisko>
+		<wiek>11</wiek>
+	</osoba>
+	
+	
+	
+	
+	<osoba>
+		<imie>Długomił</imie>
+		<nazwisko>Cytrynka</nazwisko>
+		<wiek>14</wiek>
+	</osoba>
+</lista>

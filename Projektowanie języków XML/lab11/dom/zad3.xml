@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faktura>
+  <numer>12537/2019</numer>
+  
+  <klienci>
+    <osoba plec="m">
+      <imie>Jan</imie>
+      <nazwisko>Kowalski</nazwisko>
+    </osoba>
+    <osoba plec="k">
+      <imie>Anna</imie>
+      <nazwisko>Kowalska</nazwisko>
+    </osoba>
+  </klienci>
+
+  <produkty>
+    <produkt id="1" kod="7501054530107" rodzaj="chemia">
+      <nazwa>Proszek do prania</nazwa>
+      <ilość>3</ilość>
+      <cena waluta="zl">24.99</cena>
+    </produkt>
+    <produkt id="2" kod="7213052740210" rodzaj="spożywczy">
+      <nazwa>Bułka tarta</nazwa>
+      <cena waluta="zl">6.30</cena>
+    </produkt>
+    <produkt id="3" kod="7501054530108" rodzaj="chemia">
+      <nazwa>Płyn do mycia naczyń</nazwa>
+      <cena waluta="zl">11.99</cena>
+    </produkt >
+  </produkty>
+</faktura>

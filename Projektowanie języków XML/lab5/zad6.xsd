@@ -1,0 +1,46 @@
+//<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="osoba">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="imie" minOccurs="1" maxOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:minLength value="3" />
+                            <xsd:maxLength value="20" />
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="nazwisko" minOccurs="1" maxOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:minLength value="3" />
+                            <xsd:maxLength value="30" />
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="numer" minOccurs="1" maxOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:minLength value="6" />
+                            <xsd:maxLength value="6" />
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="plec">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="mezczyzna|kobieta"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
+
+<!--
+Zadanie 7. Stwórz plik XML-Schema zawierający deklarację elementu głównego o nazwie punkty, 
+który będzie zawierał listę 5-ciu liczb całkowitych z zakresu 0-10 lub napis "brak danych".
+-->

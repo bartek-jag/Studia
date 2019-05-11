@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT zamowienie (adres, artykuly)>
+<!ATTLIST zamowienie numer_zamowienia CDATA #REQUIRED>
+<!ELEMENT adres (miejsce, ulica?, kod_pocztowy)>
+<!ATTLIST adres termin_dostarczenia CDATA #IMPLIED>
+<!ATTLIST adres kraj (Polska) #REQUIRED>
+
+<!ELEMENT artykuly (artykul+)>
+<!ELEMENT artykul (film | ksiazka | plyta)>
+<!ATTLIST artykul id ID #REQUIRED>
+
+<!ELEMENT film (tytul, rezyser, rok_wydania, czas_trwania?)>
+<!ELEMENT ksiazka (tytul, autor, rok_wydania, nr_wydania)>
+<!ELEMENT plyta (tytul, wykonawca, wydawca, czas_trwania?)>
+
+<!ELEMENT kod_pocztowy (#PCDATA)>
+<!ELEMENT czas_trwania (#PCDATA)>
+<!ELEMENT rok_wydania (#PCDATA)>
+<!ELEMENT nr_wydania (#PCDATA)>
+<!ELEMENT miejsce (#PCDATA)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT wykonawca (#PCDATA)>
+<!ELEMENT wydawca (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT rezyser (#PCDATA)>

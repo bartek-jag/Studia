@@ -1,0 +1,84 @@
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<informatyka>
+    <grupa nr='1'>
+        <student plec='m'>
+            <nazwisko>Bąk</nazwisko>
+            <imie>Stanisław</imie>
+            <indeks>285619</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Chełchowski</nazwisko>
+            <imie>Adam</imie>
+            <indeks>285622</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Dawidziuk</nazwisko>
+            <imie>Michał</imie>
+            <indeks>285627</indeks>
+        </student>
+        <student plec='k'>
+            <nazwisko>Dębkowska</nazwisko>
+            <imie>Dominika</imie>
+            <indeks>285633</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Furmański</nazwisko>
+            <imie>Andrzej</imie>
+            <indeks>285637</indeks>
+        </student>
+    </grupa>
+    <grupa nr='2'>
+        <student plec='m'>
+            <nazwisko>Grudziński</nazwisko>
+            <imie>Oskar</imie>
+            <indeks>285644</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Janczarski</nazwisko>
+            <imie>Wojciech</imie>
+            <indeks>235173</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Janus</nazwisko>
+            <imie>Maciej</imie>
+            <indeks>285650</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Kardaś</nazwisko>
+            <imie>Jakub</imie>
+            <indeks>285651</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Kołodziej</nazwisko>
+            <imie>Maciej</imie>
+            <indeks>285654</indeks>
+        </student>
+    </grupa>
+    <grupa nr='3'>
+        <student plec='k'>
+            <nazwisko>Kozłowska</nazwisko>
+            <imie>Sylwia</imie>
+            <indeks>285658</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Kudyk</nazwisko>
+            <imie>Michał</imie>
+            <indeks>285662</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Kurpios</nazwisko>
+            <imie>Sebastian</imie>
+            <indeks>262754</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Laszczyński</nazwisko>
+            <imie>Kacper</imie>
+            <indeks>285672</indeks>
+        </student>
+        <student plec='m'>
+            <nazwisko>Kowalksi</nazwisko>
+            <imie>Jan</imie>
+            <indeks>111111</indeks>
+        </student>
+    </grupa>
+</informatyka>

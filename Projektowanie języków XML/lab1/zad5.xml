@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<sprzęty>
+    <sprzet typ="Komputer">
+        <marka>Dell</marka>
+    </sprzet>
+    <sprzet typ="Komputer">
+        <marka>Samsung</marka>
+    </sprzet>
+
+    <sprzet typ="Drukarka">
+        <marka>Canon</marka>
+    </sprzet>
+
+    <sprzet typ="Rzutnik">
+        <marka>Pioneer</marka>
+    </sprzet>
+</sprzęty>
+
+
+
+
+
+
+
+
+
+
+<!--
+Zadanie 5. Skontruuj plik XML zawierający dane odnośnie sprzętu komputerowego. Plik powinien zawierać informację na temat sprzętu oraz informacji
+ o produkcje. Zadbaj o to by plik był rozbudowany. Zastosuj odpowiednie atrybuty oraz elementy podrzędne.
+-->

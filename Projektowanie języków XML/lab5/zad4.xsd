@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="szkola">
+        <xsd:complexType>
+            <xsd:choice>
+                <xsd:element name="nauczyciel" type="xsd:string"  minOccurs="3" maxOccurs="3"/>
+                <xsd:sequence>
+                    <xsd:element name="dyrektor" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="wicedyrektor" type="xsd:string" minOccurs="2" maxOccurs="2"/>
+                </xsd:sequence>
+            </xsd:choice>
+        </xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
+
+
+<!--
+Zadanie 4. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie szkola,
+ będzie zawierał 3 elementy o nazwie nauczyciel lub element o nazwie dyrektor oraz 2 elementy o nazwie wicedyrektor.
+-->

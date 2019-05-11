@@ -1,0 +1,40 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="litery">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="literki">
+                    <xsd:attribute name="id">
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:token">
+                                <xsd:pattern value="[a-zA-Z]+[0-9]*"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:attribute>
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="literki">
+        <xsd:restriction base="xsd:token">
+            <xsd:pattern value="[a-z]*[A-Z][a-z]*[A-Z]?[a-z]*[A-Z]?[a-z]*[A-Z]?[a-z]*[A-Z][a-z]*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>
+
+
+<!--
+Zadanie 4. Stwórz plik XML-Schema zawierający deklarację elementu głównego o nazwie litery oraz atrubytu id. Element powinien zawierać definicję dowolnego słowa, które może zawierać 2-5 dużych liter. Atrybut definicję dowolnego ciągu małych i dużych liter oraz cyfr takich, że zacznie się od litery. Wykorzystaj wzorce.
+Wyrażenia regularne: 
+. - dowolny pojedyńczy znak.
+[znak1znak2...znakN] - dowolny z wymienionych znaków.
+[znak1-znak2] - znaki z zakresu od znak1 do znak2
+[^znak1znak2...znakN] - żaden z wymienionych znaków.
+| - dowolny z rozdzielonych znakiem wzorzec.
+? - zero lub jeden poprzedzający znak.
++ - jeden lub więcej poprzedzających znaków.
+* - zero lub więcej poprzedzających znaków.
+{liczba} - podana ilość poprzedzających znaków.
+{liczba,} - podana ilość lub więcej poprzedzających znaków.
+{liczba1,liczba2} - podany zakres ilości poprzedzających znaków.
+\znak - użycie znaku specjalnego jako znak zwykły, np. \. oznacza kropkę, a nie dowolny znak.
+-->

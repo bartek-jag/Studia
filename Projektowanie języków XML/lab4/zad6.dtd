@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ENTITY % zada SYSTEM "zad6a.dtd">
+<!ENTITY % zadb SYSTEM "zad6b.dtd">
+
+
+<!ELEMENT glowny ANY>
+
+%zada;
+
+%zadb;

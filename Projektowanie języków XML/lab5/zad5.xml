@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kolor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zad5.xsd">
+	<czerwony>255</czerwony>
+    <zielony>0</zielony>
+    <niebieski>127</niebieski>
+</kolor>

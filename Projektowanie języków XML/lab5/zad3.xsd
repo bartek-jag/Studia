@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="glowny" type="elementy"/>
+
+	<xsd:complexType name="elementy">
+		<xsd:all>
+			<xsd:element name="element1" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="element2" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="element3" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+		</xsd:all>
+	</xsd:complexType>
+
+</xsd:schema>
+
+<!--
+Zadanie 3. Dany jest plik XML-Schema oraz plik XML. Postaraj się odgadnąć czy 
+pliki przejdą walidację oraz jakie są ewentulane błędy. Jeżeli pliki nie przechodzi walidacji popraw pliki w możliwie najprostrzy sposób.
+-->

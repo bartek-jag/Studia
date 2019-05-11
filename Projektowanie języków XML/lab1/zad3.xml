@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<biblioteka> <!-- biblioteka -->
+    <artykul>
+        <ksiazka rok_wydania="2012">
+            <tytul>XML na poważnie</tytul>
+            <autor>Jan Kowalski</autor>
+            <opis>Dowiesz się wielu rzeczy na temat języka XML np. o znacznikach, czyli wyrażeniach typu &lt;nazwa&gt;, i wielu innych</opis>
+            <cena waluta="zł">25.90</cena>
+        </ksiazka>
+        <ksiazka>
+            <tytul angielski='Beginner&apos;s guide for PHP'>Przewodnik po PHP</tytul>
+            <autor>Vikram Vaswani</autor> 
+            <opis status="do uzupelnienia"/>
+            <cena waluta='zł'>15.30</cena>
+        </ksiazka>
+    </artykul>
+    <artykul atr="co"><!-- dodać atrybuty -->
+        <!-- do uzupelnienia --> 
+    </artykul>
+</biblioteka>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="telefon">
+        <xsd:simpleType> 
+            <xsd:union>
+                <xsd:simpleType> 
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+                    </xsd:restriction>
+                </xsd:simpleType> 
+                <xsd:simpleType> 
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="\+48 [0-9]{3} [0-9]{3} [0-9]{3}"/>
+                    </xsd:restriction>
+                </xsd:simpleType> 
+                <xsd:simpleType> 
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="(58) [0-9]{3} [0-9]{2} [0-9]{2}"/>
+                    </xsd:restriction>
+                </xsd:simpleType> 
+            </xsd:union>
+        </xsd:simpleType> 
+	</xsd:element>
+</xsd:schema>
+
+
+
+
+<!--
+Zadanie 2. Stwórz plik XML-Schema zawierający deklarację elementu głównego o nazwie telefon, który będzie zawierał definicję numeru telefonu w trzech formatach: 000-000-000, +48 000 000 000, (58) 000 00 00. Wykorzystaj wzorce.
+
+
+Wyrażenia regularne: 
+. - dowolny pojedyńczy znak.
+[znak1znak2...znakN] - dowolny z wymienionych znaków.
+[znak1-znak2] - znaki z zakresu od znak1 do znak2
+[^znak1znak2...znakN] - żaden z wymienionych znaków.
+| - dowolny z rozdzielonych znakiem wzorzec.
+? - zero lub jeden poprzedzający znak.
++ - jeden lub więcej poprzedzających znaków.
+* - zero lub więcej poprzedzających znaków.
+{liczba} - podana ilość poprzedzających znaków.
+{liczba,} - podana ilość lub więcej poprzedzających znaków.
+{liczba1,liczba2} - podany zakres ilości poprzedzających znaków.
+\znak - użycie znaku specjalnego jako znak zwykły, np. \. oznacza kropkę, a nie dowolny znak.
+-->

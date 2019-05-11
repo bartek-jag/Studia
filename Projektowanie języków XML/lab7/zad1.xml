@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osoby>
+    <nauczyciele>
+        <osoba plec="M">
+            <imie>a</imie>
+            <nazwisko>a</nazwisko>
+        </osoba>
+    </nauczyciele>
+
+    <uczniowie>
+        <osoba plec="K">
+            <imie>a</imie>
+            <nazwisko>a</nazwisko>
+        </osoba>
+    </uczniowie>
+
+    <pozostali>
+        <osoba plec="M">
+            <imie>a</imie>
+            <nazwisko>a</nazwisko>
+        </osoba>
+    </pozostali>
+</osoby>

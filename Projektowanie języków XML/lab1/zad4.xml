@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<szkola>
+    <nauczyciele>
+        <osoba plec="M">
+            <imie>Łukasz</imie>
+            <nazwisko>Mielewczyk</nazwisko>
+            <data_urodzenia>niewiem</data_urodzenia>
+        </osoba>
+        <osoba plec="M">
+            <imie>Jan</imie>
+            <nazwisko>Kowalski</nazwisko>
+            <data_urodzenia>30.06.1970</data_urodzenia>
+        </osoba>
+    </nauczyciele>
+
+    <uczniowie>
+        <osoba plec="M">
+            <imie>Kamil</imie>
+            <nazwisko>Gil</nazwisko>
+            <data_urodzenia>21.01.1999</data_urodzenia>
+        </osoba>
+        <osoba plec="K">
+            <imie>Marta</imie>
+            <nazwisko>Wydarta</nazwisko>
+            <data_urodzenia>01.01.1998</data_urodzenia>
+        </osoba>
+    </uczniowie>
+
+    <pozostali>
+        <osoba plec="M">
+            <imie>Janusz</imie>
+            <nazwisko>Paleta</nazwisko>
+            <data_urodzenia>22.04.1975</data_urodzenia>
+            <stanowisko>Dozorca</stanowisko>
+        </osoba>
+        <osoba plec="M">
+            <imie>Marcin</imie>
+            <nazwisko>Kot</nazwisko>
+            <data_urodzenia>09.11.1990</data_urodzenia>
+            <stanowisko>Technik</stanowisko>
+        </osoba>
+    </pozostali>
+</szkola>
+
+
+
+
+
+
+
+
+
+
+<!--Zadanie 4. Skontruuj poprawny plik XML zawierający dane na temat pracowników i uczniów w szkole. Plik powinien zawierać 3 elementy: nauczyciele,
+ uczniowe, pozostali, które będą zwierać odpowiednie dane na temat osób tj. imię, nazwisko, data urodzenia, płeć oraz w przypadku pozostałych
+  pracowników stanowisko (conajmniej 3 dane). Zastosuj odpowiednie atrybuty oraz elementy podrzędne.-->

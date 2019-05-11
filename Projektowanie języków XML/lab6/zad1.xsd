@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="cena">
+        <xsd:simpleType> 
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[0-9]+.[0-9]{2}"/>
+            </xsd:restriction>
+        </xsd:simpleType> 
+	</xsd:element>
+</xsd:schema>
+
+
+
+
+<!--
+Zadanie 1. Stwórz plik XML-Schema zawierający deklarację elementu głównego o nazwie cena, który będzie zawierał cenę. Część całkowita i dziesiętna musi być odzielona kropką (.). Cena musi być liczbą dodatnią lub równa zero, która zawiera 2 miejsca po przecinku. Wykorzystaj wzorce.
+
+Wyrażenia regularne: 
+. - dowolny pojedyńczy znak.
+[znak1znak2...znakN] - dowolny z wymienionych znaków.
+[znak1-znak2] - znaki z zakresu od znak1 do znak2
+[^znak1znak2...znakN] - żaden z wymienionych znaków.
+| - dowolny z rozdzielonych znakiem wzorzec.
+? - zero lub jeden poprzedzający znak.
++ - jeden lub więcej poprzedzających znaków.
+* - zero lub więcej poprzedzających znaków.
+{liczba} - podana ilość poprzedzających znaków.
+{liczba,} - podana ilość lub więcej poprzedzających znaków.
+{liczba1,liczba2} - podany zakres ilości poprzedzających znaków.
+\znak - użycie znaku specjalnego jako znak zwykły, np. \. oznacza kropkę, a nie dowolny znak.
+-->

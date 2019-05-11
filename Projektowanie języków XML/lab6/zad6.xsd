@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prz1="http://prz_nazw1" xmlns:prz2="http://prz_nazw2" targetNamespace="http://prz_nazw1" >
+    <xsd:include schemaLocation="zad6a.xsd"/> 
+    <xsd:import namespace="http://prz_nazw2" schemaLocation="zad6c.xsd"/> 
+
+    <xsd:redefine schemaLocation="zad6b.xsd"> 
+        <xsd:complexType name="typDaneOsobowe">
+            <xsd:complexContent>
+                <xsd:extension base="typDaneOsobowe">
+                    <xsd:attribute name="plec"/>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:redefine> 
+
+
+    <xsd:element name="lol">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Miejsce" type="prz1:typDaneMiejsca"/>
+                <xsd:element name="Osoba" type="prz1:typDaneOsobowe"/>
+                <xsd:element name="Adres" type="prz2:typAdres"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

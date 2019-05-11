@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glowny SYSTEM "zad7.dtd">
+
+<matura>
+	<ocena>5</ocena>
+</matura>
+
+
+
+<!--
+
+Zadanie 7. Stwórz plik XML zawierający element główny matura oraz plik DTD, zawierający definicję elemenetów i atrybutów dla starej 
+(ocena) i nowej (punkty, procenty) matury. Użyj encji parmetrycznych i sekcji warunkowych oraz przetestuj ich działanie dla obu przypadków.
+-->

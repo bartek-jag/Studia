@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<grupy>
+	<grupa aktywny="nie">
+		<liczba>1</liczba>
+		<liczba>2</liczba>
+		<liczba>3</liczba>
+	</grupa>
+	<grupa aktywny="tak">
+		<liczba>45</liczba>
+		<liczba>0</liczba>
+		<liczba>0</liczba>
+		<liczba>0</liczba>
+		<liczba>0</liczba>
+	</grupa>
+	<grupa aktywny="nie">
+		<liczba>2</liczba>
+		<liczba>5</liczba>
+		<liczba>3</liczba>
+		<liczba>7</liczba>
+	</grupa>
+	<grupa aktywny="tak">
+		<liczba>10</liczba>
+		<liczba>22</liczba>
+		<liczba>8</liczba>
+	</grupa>
+	<grupa aktywny="tak">
+		<liczba>9</liczba>
+		<liczba>23</liczba>
+		<liczba>12</liczba>
+		<liczba>1</liczba>
+	</grupa>
+	<grupa aktywny="tak">
+		<liczba>3</liczba>
+		<liczba>1</liczba>
+		<liczba>7</liczba>
+		<liczba>3</liczba>
+		<liczba>10</liczba>
+	</grupa>
+	<grupa aktywny="nie">
+		<liczba>0</liczba>
+		<liczba>1</liczba>
+		<liczba>5</liczba>
+	</grupa>
+</grupy>

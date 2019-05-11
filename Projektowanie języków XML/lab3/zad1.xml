@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glowny SYSTEM "zad1.dtd">
+
+
+<glowny>
+    <podrzedny>a</podrzedny>
+    <podrzedny>a</podrzedny>
+    <podrzedny>a</podrzedny>
+    <podrzedny>a</podrzedny>
+    <podrzedny>a</podrzedny>
+    <pierwszy>a</pierwszy>
+    <pierwszy>a</pierwszy>
+    <pierwszy>a</pierwszy>
+    <drugi>a</drugi>
+    <drugi>a</drugi>
+    <drugi>a</drugi>
+
+    <nieparzysta>a</nieparzysta>
+    <nieparzysta>a</nieparzysta>
+    <nieparzysta>a</nieparzysta>
+</glowny>
+<!--
+Zadanie 1. Stwórz plik DTD zawierający deklarację elementów takich, że:
+element główny o nazwie glowny zawiera conajmniej pięć elementów podrzędnych o nazwie podrzedny.
+element główny o nazwie glowny zawiera 2 lub 3 elementy podrzędne elementy o nazwie pierwszy oraz 2 lub 3 elementy podrzędne o nazwie drugi.
+element główny o nazwie glowny zawiera parzystą liczbę elementów podrzędnych o nazwie parzysta lub nieparzystą liczbę elementów nieparzysty.
+Przetestuj działanie DTD na pliku XML.
+
+    <parzysta>a</parzysta>
+    <parzysta>a</parzysta>
+-->

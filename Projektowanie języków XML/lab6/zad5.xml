@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<a:sklep xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zad5.xsd" xmlns:a="http://costam">
+    <a:plyta>
+        <a:tytul>Sen o 7 szklankach</a:tytul>
+        <a:wykonawca>Coma</a:wykonawca>
+		<a:cena a:waluta="zł">35.90</a:cena>
+    </a:plyta>
+    <a:plyta> 
+        <a:tytul tlumaczenie="Filmowa orkiestra">The Cinematic Orchestra</a:tytul>
+        <a:wykonawca>To Believe</a:wykonawca> 
+		<a:cena a:waluta='zł'>40.30</a:cena>
+    </a:plyta>
+</a:sklep>

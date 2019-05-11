@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+ <head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <title>tytuł_strony</title>
+  <link rel="stylesheet" href="style2.css">
+ </head>
+ <body>
+    <svg width="1000" height="1000" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="6" markerHeight="6"
+        orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+              </defs>
+
+
+              <!--KWADRAT-->
+    <rect id="kwadrat" height="100" width="100" x="10" y="10"/>
+    <line x1="10" y1="10" x2="110" y2="110" class="linia"/>
+    <line x1="110" y1="10" x2="10" y2="110" class="linia"/>
+    <text x="80" y="80">d</text>
+    <text x="30" y="80">d</text>
+    <line x1="10" y1="130" x2="110" y2="130" class="strzalki"/>
+    <text x="55" y="125">a</text>
+    <line x1="130" y1="10" x2="130" y2="110" class="strzalki"/>
+    <text x="120" y="60">a</text>
+              <!--KWADRAT-->
+
+              <!--PROSTOKĄT-->
+    <rect id="prostokat" height="100" width="200" y="10" x="200"/>
+    <line x1="200" y1="10" x2="400" y2="110" class="linia"/>
+    <line x1="200" y1="110" x2="400" y2="10" class="linia"/>
+    <line x1="200" y1="130" x2="400" y2="130" class="strzalki"/>
+    <line x1="420" y1="10" x2="420" y2="110" class="strzalki"/>
+    <text x="300" y="125">b</text>
+    <text x="410" y="60">a</text>
+                <!--PROSTOKĄT-->   
+
+                <!--RÓWNOLEGŁOBOK-->  
+    <polygon points="500,110 530,10 730,10 700,110" fill="green"  class="figura"/>
+    <line x1="700" y1="10" x2="700" y2="110" class="linia"/>
+    <text x="705" y="60">h</text>
+
+    <line x1="500" y1="130" x2="700" y2="130" class="strzalki"/>
+    <text x="600" y="125">a</text>
+
+    <line x1="750" y1="10" x2="720" y2="110" class="strzalki"/>
+    <text x="745" y="60">b</text>
+
+                <!--TRAPEZ-->  
+    <polygon points="10,400 30,300 140,300 170,400" fill="green"  class="figura"/>
+    <line x1="140" y1="300" x2="140" y2="400" class="linia"/>
+    <text x="145" y="360">h</text>
+    <line x1="30" y1="290" x2="140" y2="290" class="strzalki"/>
+    <line x1="10" y1="410" x2="170" y2="410" class="strzalki"/>
+    <line x1="0" y1="400" x2="20" y2="300" class="strzalki"/>
+    <line x1="150" y1="300" x2="180" y2="400" class="strzalki"/>
+    <text x="85" y="285">b</text>
+    <text x="85" y="420">a</text>
+    <text x="0" y="360">c</text>
+    <text x="170" y="360">d</text>
+    <foreignObject width="50" height="100" x="40" y="160">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>L</mi><mo>=</mo><mn>4</mn><mi>a</mi><mspace linebreak="newline"/><mi>P</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mspace linebreak="newline"/><mi>P</mi><mo>=</mo><mfrac><msup><mi>d</mi><mn>2</mn></msup><mn>2</mn></mfrac></math>
+    </foreignObject>
+    <foreignObject width="90" height="100" x="270" y="160">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>L</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mspace linebreak="newline"/><mi>P</mi><mo>=</mo><mi>a</mi><mi>b</mi></math>
+    </foreignObject>
+    <foreignObject width="90" height="100" x="570" y="160">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>L</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mspace linebreak="newline"/><mi>P</mi><mo>=</mo><mi>a</mi><mi>h</mi></math>
+    </foreignObject>
+    <foreignObject width="130" height="100" x="40" y="440">
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>L</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mspace linebreak="newline"/><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mspace linebreak="newline"/></math>
+        </foreignObject>
+</svg>
+</body>
+</html>

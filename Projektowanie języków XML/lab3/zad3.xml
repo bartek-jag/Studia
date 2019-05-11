@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glowny SYSTEM "zad3.dtd">
+
+<glowny>
+<unikatowy1 idU1="aa">a</unikatowy1>
+<unikatowy1 idU1="bb">a</unikatowy1>
+<unikatowy2 idU2="cc">b</unikatowy2>
+<unikatowy2 idU2="dd">b</unikatowy2>
+<pobrany id="aa">c</pobrany>
+<pobrany id="bb">c</pobrany>
+</glowny>
+
+<!--
+
+Zadanie 3. Dany jest plik DTD. Utwórz odpowiedni plik XML, który przejdzie walidację. Stwórz kilka elementów o nazwie unikatowy1, unikatowy2 oraz pobrany. Spróbuj odgadnąć następnie sprawdź czy dokument przejdzie walitację jeśli:
+wartość w atrybucie id nie powtórzy się w idU1 ani idU2.
+któraś z wartości w atryburach idU1 i idU2 się powtórzy.
+któryś atrybut idU1 i/lub idU2 przyjmie wartość liczbową.
+Postaraj się odgadnąć jakie własności muszą spełniać wartości idU1 i idU2, aby dokument przeszedł walidację.
+
+
+
+<!ELEMENT glowny (unikatowy1+, unikatowy2+, pobrany+)>
+<!ELEMENT unikatowy1 (#PCDATA)>
+<!ELEMENT unikatowy2 (#PCDATA)>
+<!ELEMENT pobrany (#PCDATA)>
+<!ATTLIST unikatowy1 idU1 ID #REQUIRED>
+<!ATTLIST unikatowy2 idU2 ID #REQUIRED>
+<!ATTLIST pobrany id IDREF #REQUIRED>
+
+-->

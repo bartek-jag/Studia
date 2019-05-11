@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<!ELEMENT nauka (rodzaje, rzeczowniki)>
+<!ELEMENT rodzaje (rodzaj*)>
+<!ELEMENT rodzaj (#PCDATA)>
+<!ELEMENT rzeczowniki (rzeczownik*)>
+<!ELEMENT rzeczownik (nazwa, synonimy*)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT synonimy (#PCDATA)>
+<!ATTLIST rzeczownik rodzaj IDREF #REQUIRED>
+<!ATTLIST rodzaj skrot ID #REQUIRED>

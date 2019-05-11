@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osoba xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zad5.xsd" plec="kobieta">
+	<imie>Bartosz</imie>
+    <nazwisko>Jag</nazwisko>
+    <numer>123456</numer>
+</osoba>
+
+
+
+<!--
+Zadanie 6. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie osoba, który będzie zawierał:
+element imie o długości minimalnej 3 i maksymalnej 20.
+element nazwisko o długości minimalnej 3 i maksymalnej 30.
+element numer o długości równej 6.
+atrybut plec, który może przyjąc wartość "kobieta" lub "mężczyzna"
+-->

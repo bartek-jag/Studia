@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="glowny">
+    <xsd:complexType mixed="true">
+      <xsd:sequence>
+        <xsd:element name="element1" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element name="element2" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema><!--
+
+Zadanie 3. Utwórz plik XML-Schema w którym element główny o nazwie glowny będzie zawierał zawartość mieszaną zawierającą elementy o nazwie element1 i element2 w dowolnej ilości i kolejności. O zawartości mieszanej mówimy wtedy gdy zawiera elemety oraz tekst w dowolnej koleności.
+Przykładowy plik XML do testów.
+-->

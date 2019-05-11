@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glowny SYSTEM "zad5.dtd">
+<glowny>
+	<nazwa></nazwa>
+	<dzial>
+		<pracownik plec="k" numer_pesel="23232">
+			<imie>Jan</imie>
+			<nazwisko>Kowalski</nazwisko>
+			<data_urodzenia>11.11.1111</data_urodzenia>
+
+		</pracownik>
+	</dzial>
+</glowny>
+<!--
+Zadanie 5. Utwórz plik XML dla dowolnej firmy zawierający listę pracowników oraz powiąż z nim odpowiedni DTD. Struktura dokumentu:
+Element główny
+powinien zawierać zero lub jeden element o nazwie nazwa.
+powinien zawierać zero lub więcej elementów podrzędny o nazwie dzial.
+Element dzial
+powinien zawierać conajmniej jeden element podrzędny o nazwie pracownik.
+Element pracownik
+powinien zawierać jeden element podrzędny o nazwie imie.
+powinien zawierać jeden element podrzędny o nazwie nazwisko.
+powinien zawierać jeden element podrzędny o nazwie data_urodzenia.
+powinien zawierać jeden atrybut o nazwie płeć, które może zawierać jedynie wartości: m, k, bd (brak danych), domyślna wartość to bd.
+powinien zawierać jeden atrybut o nazwie numer_pesel, które może zawierać jedno słowo, użycie obowiązkowe.
+może zawierać jeden atrybut o nazwie opis, który może zawierać kilka słów, użycie opcjonalne.
+Elementy imie, nazwisko, data_urodzenia
+powinny zawierać wartość tekstową wewnątrz.
+-->

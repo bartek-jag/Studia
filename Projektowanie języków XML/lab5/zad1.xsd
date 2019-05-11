@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="pracownik">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="imie" type="xsd:string"/>
+				<xsd:element name="nazwisko" type="xsd:string"/>
+				<xsd:element name="wiek" type="xsd:nonNegativeInteger"/>
+				<xsd:element name="data_urodzenia" type="xsd:string"/>
+				<xsd:element name="pensja" type="xsd:nonNegativeInteger"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
+
+
+<!--
+Zadanie 1. Stwórz plik XML-Schema zawierający deklarację elementów takich,
+ że element główny o nazwie pracownik będzie zawierał elementy: imie, nazwisko, wiek, 
+ data_urodzenia, pensja w podanej kolejności. Zastosuj odpowiedni typ danych.
+Przetestuj działanie Schema na pliku XML.
+-->

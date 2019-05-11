@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="punkty">
+        <xsd:simpleType> 
+            <xsd:union> 
+                <xsd:simpleType> 
+                    <xsd:restriction base="gotowaLista"/> 
+                </xsd:simpleType> 
+
+                <xsd:simpleType> 
+                    <xsd:restriction base="xsd:string"> 
+                        <xsd:enumeration value="brak danych"/> 
+                    </xsd:restriction> 
+                </xsd:simpleType> 
+            </xsd:union> 
+        </xsd:simpleType> 
+	</xsd:element>
+
+	<xsd:simpleType name="liczba">
+		<xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0" />
+			<xsd:maxInclusive value="10" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="listaLiczb">
+		<xsd:list itemType="liczba" />
+	</xsd:simpleType>
+
+	<xsd:simpleType name="gotowaLista">
+		<xsd:restriction base="listaLiczb">
+			<xsd:length value="5" />
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>
+
+
+
+
+<!--
+Zadanie 7. Stwórz plik XML-Schema zawierający deklarację elementu głównego o
+ nazwie punkty, który będzie zawierał listę 5-ciu liczb całkowitych z zakresu 0-10 lub napis "brak danych".
+-->

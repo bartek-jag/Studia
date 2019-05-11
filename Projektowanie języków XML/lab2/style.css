@@ -1,0 +1,54 @@
+grupa {
+    display: inline-block;
+    border: solid;
+    margin: 50px;
+    background-color: grey;
+}
+
+student {
+    display:block;
+    border: solid 1px;
+    margin: 5px;
+    padding: 2px;
+}
+
+indeks {
+    display:block;
+    font-size: 10px;
+}
+
+indeks:before {
+    content: "Numer albumu: "
+}
+
+nazwisko {
+    font-weight: bold;
+}
+
+student[plec='k']>imie:after {
+    content: url('oznaczenieKobieta.png');
+}
+
+student[plec='m']>imie:after {
+    content: url('oznaczenieMezczyzna.png');
+}
+
+grupa[nr='1']>student {
+    background-color: red;
+}
+
+grupa[nr='2']>student {
+    background-color: yellow;
+}
+
+grupa[nr='3']>student {
+    background-color: green;
+}
+
+student[plec='m']:hover {
+    background-color: cyan;
+}
+
+student[plec='k']:hover {
+    background-color: pink;
+}
