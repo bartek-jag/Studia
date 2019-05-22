@@ -2,11 +2,9 @@
 <!DOCTYPE osoby SYSTEM "zad3.dtd">
 
 <osoby>
-	<dziecko plec="k" pesel="111111">
-		<imie>Anna</imie>
-		<nazwisko>Wależak</nazwisko>
-		<data_urodzenia>11.11.11</data_urodzenia>
-	</dziecko>
+    <dziecko plec="k" pesel="111111">
+        <imie>Anna</imie>
+        <nazwisko>Wależak</nazwisko>
+        <data_urodzenia>11.11.11</data_urodzenia>
+    </dziecko>
 </osoby>
-
-

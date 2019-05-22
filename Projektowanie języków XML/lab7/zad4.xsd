@@ -1,44 +1,46 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="firma">
-    <xsd:complexType mixed="true">
-      <xsd:sequence>
-        <xsd:element name="produkt" maxOccurs="unbounded">
-          <xsd:complexType>
+    <xsd:element name="firma">
+        <xsd:complexType mixed="true">
             <xsd:sequence>
-              <xsd:element name="nazwa" type="xsd:string"/>
-              <xsd:element name="producent" type="xsd:string"/>
-              <xsd:element name="cena" type="xsd:string"/>
+                <xsd:element name="produkt" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nazwa" type="xsd:string"/>
+                            <xsd:element name="producent" type="xsd:string"/>
+                            <xsd:element name="cena" type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="id" type="xsd:string"/>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="zakup" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="data_zakupu" type="xsd:string"/>
+                            <xsd:element name="ilosc" type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="id_produkt" type="xsd:string"/>
+                    </xsd:complexType>
+                </xsd:element>
             </xsd:sequence>
-            <xsd:attribute name="id" type="xsd:string"/>
-          </xsd:complexType>
-        </xsd:element>
-        <xsd:element name="zakup" maxOccurs="unbounded">
-          <xsd:complexType>
-            <xsd:sequence>
-              <xsd:element name="data_zakupu" type="xsd:string"/>
-              <xsd:element name="ilosc" type="xsd:string"/>
-            </xsd:sequence>
-            <xsd:attribute name="id_produkt" type="xsd:string"/>
-          </xsd:complexType>
-        </xsd:element>
-      </xsd:sequence>
-    </xsd:complexType>
-    <xsd:unique name="u">
-      <xsd:selector xpath="produkt"/>
-      <xsd:field xpath="nazwa"/>
-      <xsd:field xpath="producent"/>
-    </xsd:unique>
-    <xsd:key name="idProdukt">
-      <xsd:selector xpath="produkt"/>
-      <xsd:field xpath="@id"/>
-    </xsd:key>
-    <xsd:keyref name="refIdProdukt" refer="idProdukt">
-      <xsd:selector xpath="zakup"/>
-      <xsd:field xpath="@id_produkt"/>
-    </xsd:keyref>
-  </xsd:element>
-</xsd:schema><!--
+        </xsd:complexType>
+        <xsd:unique name="u">
+            <xsd:selector xpath="produkt"/>
+            <xsd:field xpath="nazwa"/>
+            <xsd:field xpath="producent"/>
+        </xsd:unique>
+        <xsd:key name="idProdukt">
+            <xsd:selector xpath="produkt"/>
+            <xsd:field xpath="@id"/>
+        </xsd:key>
+        <xsd:keyref name="refIdProdukt" refer="idProdukt">
+            <xsd:selector xpath="zakup"/>
+            <xsd:field xpath="@id_produkt"/>
+        </xsd:keyref>
+    </xsd:element>
+</xsd:schema>
+
+<!--
 <xsd:keyref name="nazwa" refer="nazwa_klucza"> 
  <xsd:selector xpath="element/>
  <xsd:field xpath="wartość1/>

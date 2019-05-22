@@ -1,24 +1,23 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="lista">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element name="osoba" maxOccurs="unbounded">
-          <xsd:complexType>
+    <xsd:element name="lista">
+        <xsd:complexType>
             <xsd:sequence>
-              <xsd:element name="imie" type="xsd:string"/>
-              <xsd:element name="nazwisko" type="xsd:string"/>
+                <xsd:element name="osoba" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="imie" type="xsd:string"/>
+                            <xsd:element name="nazwisko" type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="id" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="plec" use="required"/>
+                    </xsd:complexType>
+                </xsd:element>
             </xsd:sequence>
-            <xsd:attribute name="id" type="xsd:ID" use="required"/>
-            <xsd:attribute name="plec" use="required"/>
-          </xsd:complexType>
-        </xsd:element>
-      </xsd:sequence>
-    </xsd:complexType>
-    <xsd:key name="klucze">
-      <xsd:selector xpath="osoba"/>
-      <xsd:field xpath="@id"/>
-    </xsd:key>
-  </xsd:element>
-</xsd:schema><!--
-
+        </xsd:complexType>
+        <xsd:key name="klucze">
+            <xsd:selector xpath="osoba"/>
+            <xsd:field xpath="@id"/>
+        </xsd:key>
+    </xsd:element>
+</xsd:schema>

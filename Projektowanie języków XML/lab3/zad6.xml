@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE zamowienie SYSTEM "zad6.dtd">
 
-
-
 <zamowienie numer_zamowienia="111">
 	<adres kraj="Polska" termin_dostarczenia="11.11.11">
 		<miejsce></miejsce>
@@ -38,9 +36,6 @@
 			</plyta>
 		</artykul>
 	</artykuly>
-
-
-
 </zamowienie>
 
 <!--
@@ -79,5 +74,4 @@ powinien zawierać jeden element o nazwie rok_wydania.
 może zawierać jeden element o nazwie czas_trwania, element opcjonalny.
 Elementy kod_pocztowy, czas_trwania, rok_wydania, nr_wydania, czas_trwania, miejsce, ulica, tytul, wykonawca, wydawca, rok_wydania, tytul, autor
 powinny zawierać wartość tekstową wewnątrz.
-
 -->

@@ -1,84 +1,79 @@
 <?xml version="1.0" encoding="latin2"?>
 <lista>
-	<osoba>
-		<imie>Nadia</imie>
-		<nazwisko>Ebacka</nazwisko>
-		<wiek>45</wiek>
-		<adres aktualny="tak">
-			<miejsce>Olsztyn</miejsce>
-			<ulica>Mietowa</ulica>
-			<kod-pocztowy>10-214</kod-pocztowy>	
-		</adres>
-	</osoba>
-	<osoba>
-		<imie>Ksawery</imie>
-		<nazwisko>Melon</nazwisko>
-		<wiek>24</wiek>
-		
-		<opis>Prezes</opis>
-	</osoba>
-	<osoba>
-		<imie>Borys</imie>
-		<nazwisko>Pokrzyk</nazwisko>
-		<wiek>33</wiek>
-		
-	</osoba>
-	<osoba>
-		<imie>Balladyna</imie>
-		<nazwisko>Malina</nazwisko>
-		<wiek>68</wiek>
-		<adres aktualny="tak">
-			<miejsce>Gdynia</miejsce>
-			<ulica>Juliusza</ulica>
-			<kod-pocztowy>80-458</kod-pocztowy>
-		</adres>
-	</osoba>
-	<osoba>
-		<imie>Dafroza</imie>
-		<nazwisko>Trawnik</nazwisko>
-		<wiek>41</wiek>
-		
-	</osoba>
-	<osoba>
-		<imie>Abira</imie>
-		<nazwisko>Bogata</nazwisko>
-		<wiek>27</wiek>
-		<adres aktualny="tak">
-			<miejsce>Olsztyn</miejsce>
-			<ulica>Gdynska</ulica>
-			<kod-pocztowy>10-678</kod-pocztowy>
-		</adres>
-	</osoba>
-	<osoba>
-		<imie>Felin</imie>
-		<nazwisko>Dziurawiec</nazwisko>
-		<wiek>30</wiek>
-		
-	</osoba>
-	<osoba>
-		<imie>Grzymisława</imie>
-		<nazwisko>Chmiel</nazwisko>
-		<wiek>35</wiek>
-		<adres aktualny="tak">
-			<miejsce>Katowice</miejsce>
-			<ulica>Bulwara</ulica>
-			<kod-pocztowy>40-331</kod-pocztowy>
-		</adres>
-	</osoba>
-	<osoba>
-		<imie>Benicjusz</imie>
-		<nazwisko>Naparczywy</nazwisko>
-		<wiek>32</wiek>
-		<adres aktualny="tak">
-			<miejsce>Gdynia</miejsce>
-			<ulica>Mikolaja</ulica>
-			<kod-pocztowy>81-542</kod-pocztowy>
-		</adres>
-	</osoba>
-	<osoba>
-		<imie>Długomił</imie>
-		<nazwisko>Cytrynka</nazwisko>
-		<wiek>44</wiek>
-		
-	</osoba>
+    <osoba>
+        <imie>Nadia</imie>
+        <nazwisko>Ebacka</nazwisko>
+        <wiek>45</wiek>
+        <adres aktualny="tak">
+            <miejsce>Olsztyn</miejsce>
+            <ulica>Mietowa</ulica>
+            <kod-pocztowy>10-214</kod-pocztowy>
+        </adres>
+    </osoba>
+    <osoba>
+        <imie>Ksawery</imie>
+        <nazwisko>Melon</nazwisko>
+        <wiek>24</wiek>
+        <opis>Prezes</opis>
+    </osoba>
+    <osoba>
+        <imie>Borys</imie>
+        <nazwisko>Pokrzyk</nazwisko>
+        <wiek>33</wiek>
+    </osoba>
+    <osoba>
+        <imie>Balladyna</imie>
+        <nazwisko>Malina</nazwisko>
+        <wiek>68</wiek>
+        <adres aktualny="tak">
+            <miejsce>Gdynia</miejsce>
+            <ulica>Juliusza</ulica>
+            <kod-pocztowy>80-458</kod-pocztowy>
+        </adres>
+    </osoba>
+    <osoba>
+        <imie>Dafroza</imie>
+        <nazwisko>Trawnik</nazwisko>
+        <wiek>41</wiek>
+    </osoba>
+    <osoba>
+        <imie>Abira</imie>
+        <nazwisko>Bogata</nazwisko>
+        <wiek>27</wiek>
+        <adres aktualny="tak">
+            <miejsce>Olsztyn</miejsce>
+            <ulica>Gdynska</ulica>
+            <kod-pocztowy>10-678</kod-pocztowy>
+        </adres>
+    </osoba>
+    <osoba>
+        <imie>Felin</imie>
+        <nazwisko>Dziurawiec</nazwisko>
+        <wiek>30</wiek>
+    </osoba>
+    <osoba>
+        <imie>Grzymisława</imie>
+        <nazwisko>Chmiel</nazwisko>
+        <wiek>35</wiek>
+        <adres aktualny="tak">
+            <miejsce>Katowice</miejsce>
+            <ulica>Bulwara</ulica>
+            <kod-pocztowy>40-331</kod-pocztowy>
+        </adres>
+    </osoba>
+    <osoba>
+        <imie>Benicjusz</imie>
+        <nazwisko>Naparczywy</nazwisko>
+        <wiek>32</wiek>
+        <adres aktualny="tak">
+            <miejsce>Gdynia</miejsce>
+            <ulica>Mikolaja</ulica>
+            <kod-pocztowy>81-542</kod-pocztowy>
+        </adres>
+    </osoba>
+    <osoba>
+        <imie>Długomił</imie>
+        <nazwisko>Cytrynka</nazwisko>
+        <wiek>44</wiek>
+    </osoba>
 </lista>

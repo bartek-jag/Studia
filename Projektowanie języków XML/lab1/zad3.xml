@@ -14,7 +14,8 @@
             <cena waluta='zł'>15.30</cena>
         </ksiazka>
     </artykul>
-    <artykul atr="co"><!-- dodać atrybuty -->
+    <artykul atr="co">
+        <!-- dodać atrybuty -->
         <!-- do uzupelnienia --> 
     </artykul>
 </biblioteka>

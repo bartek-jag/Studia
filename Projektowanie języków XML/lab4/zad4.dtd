@@ -9,14 +9,7 @@
 <!ELEMENT element1 (#PCDATA) >
 <!ELEMENT element2 (#PCDATA)>
 
-
-
-
-
-
-
 <!--
-
 Zadanie 4. Dany jest plik DTD. Dodaj definicję trzech encji 
 paramentrycznych dzięki którym element główny będzie zawierał
  zawartość mieszaną (poza tym nie modyfikuj pliku DTD). 

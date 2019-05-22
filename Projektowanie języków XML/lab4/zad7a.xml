@@ -6,10 +6,7 @@
 	<procenty>96</procenty>
 </matura>
 
-
-
 <!--
-
 Zadanie 7. Stwórz plik XML zawierający element główny matura oraz plik DTD, zawierający definicję elemenetów i atrybutów dla starej 
 (ocena) i nowej (punkty, procenty) matury. Użyj encji parmetrycznych i sekcji warunkowych oraz przetestuj ich działanie dla obu przypadków.
 -->

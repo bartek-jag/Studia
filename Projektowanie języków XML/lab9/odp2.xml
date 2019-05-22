@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lista>
-  <!-- Osoby młodsze niż 30 lat -->
-  <osoba>
-    <imie>Ksawery</imie>
-    <nazwisko>Melon</nazwisko>
-  </osoba>
-  <osoba>
-    <imie>Abira</imie>
-    <nazwisko>Bogata</nazwisko>
-  </osoba>
-  <osoba>
-    <imie>Benicjusz</imie>
-    <nazwisko>Naparczywy</nazwisko>
-  </osoba>
+    <!-- Osoby młodsze niż 30 lat -->
+    <osoba>
+        <imie>Ksawery</imie>
+        <nazwisko>Melon</nazwisko>
+    </osoba>
+    <osoba>
+        <imie>Abira</imie>
+        <nazwisko>Bogata</nazwisko>
+    </osoba>
+    <osoba>
+        <imie>Benicjusz</imie>
+        <nazwisko>Naparczywy</nazwisko>
+    </osoba>
 </lista>

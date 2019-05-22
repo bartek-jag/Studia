@@ -11,5 +11,4 @@
 			<xsd:element  name="kod_pocztowy" type="xsd:string"/>
 		</xsd:sequence>
 	</xsd:complexType>
-
 </xsd:schema>

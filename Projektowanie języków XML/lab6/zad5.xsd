@@ -1,58 +1,41 @@
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:a="http://costam" targetNamespace="http://costam" elementFormDefault="qualified" >
-	<xsd:element name="sklep">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:a="http://costam" targetNamespace="http://costam" elementFormDefault="qualified">
+    <xsd:element name="sklep">
         <xsd:complexType>
-        <xsd:sequence>
-        <xsd:element name="plyta" maxOccurs="3">
-            <xsd:complexType>
-                <xsd:sequence>
-                    <xsd:element name="tytul" type="a:tlumaczenie1"/>
-                    <xsd:element name="wykonawca" />
-                    <xsd:element name="cena" type="a:waluta1"/>
-                </xsd:sequence>
-            </xsd:complexType>
-        </xsd:element>
-        </xsd:sequence>
+            <xsd:sequence>
+                <xsd:element name="plyta" maxOccurs="3">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="tytul" type="a:tlumaczenie1"/>
+                            <xsd:element name="wykonawca" />
+                            <xsd:element name="cena" type="a:waluta1"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
 
-  <xsd:complexType name="tlumaczenie1">
-    <xsd:simpleContent>
-      <xsd:extension base="xsd:string">
-        <xsd:attribute name="tlumaczenie" type="xsd:string">
-        </xsd:attribute>
-      </xsd:extension>
-    </xsd:simpleContent>
-  </xsd:complexType>
+    <xsd:complexType name="tlumaczenie1">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="tlumaczenie" type="xsd:string">
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
 
     <xsd:complexType name="waluta1">
-    <xsd:simpleContent>
-      <xsd:extension base="xsd:string">
-        <xsd:attribute name="waluta" type="xsd:string" form="qualified">
-        </xsd:attribute>
-      </xsd:extension>
-    </xsd:simpleContent>
-  </xsd:complexType>
-
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="waluta" type="xsd:string" form="qualified">
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
 </xsd:schema>
 
-
-
-
 <!--
-MAKE-SET(x)
-
-UNION(FIND-SET(x), FIND-SET(y))
-x,y
-1,4
-2,5
-1,5 -> u(1,2)
-3,5 -> u(3,1)
-7,1
-2,7 -> u(1,1)
-
-//zwrócić uwagę na heurystykę findseta
-zaprezentowac jak bedzie wygladac reprezentacja drzewa dla podanych par
-
 Zadanie 5. Dany jest plik XML. Stwórz do niego plik Schema-XML z dowolną przestrzenią nazw, np. http://costam. W taki sposób aby wszystkie atrybuty były kwalifikowane do przestrzeni nazw oraz tylko atrybut tlumaczenie był kwalifikowalna. Popraw plik XML jedynie poprzez dodanie przestrzeni nazw. Postaraj się skontruować schemat w najprotszy sposób.
 -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+  <xsd:element name="grupy" type="grupyType"/>
+  <xsd:complexType name="grupaType">
+    <xsd:sequence>
+      <xsd:element type="xsd:string" name="liczba" maxOccurs="unbounded" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute type="xsd:string" name="aktywny" use="optional"/>
+  </xsd:complexType>
+  <xsd:complexType name="grupyType">
+    <xsd:sequence>
+      <xsd:element type="grupaType" name="grupa" maxOccurs="unbounded" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

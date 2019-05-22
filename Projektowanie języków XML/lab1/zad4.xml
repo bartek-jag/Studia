@@ -42,15 +42,6 @@
     </pozostali>
 </szkola>
 
-
-
-
-
-
-
-
-
-
 <!--Zadanie 4. Skontruuj poprawny plik XML zawierający dane na temat pracowników i uczniów w szkole. Plik powinien zawierać 3 elementy: nauczyciele,
  uczniowe, pozostali, które będą zwierać odpowiednie dane na temat osób tj. imię, nazwisko, data urodzenia, płeć oraz w przypadku pozostałych
   pracowników stanowisko (conajmniej 3 dane). Zastosuj odpowiednie atrybuty oraz elementy podrzędne.-->

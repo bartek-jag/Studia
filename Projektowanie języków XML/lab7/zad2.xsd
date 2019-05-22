@@ -1,38 +1,38 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="test">
-    <xsd:complexType>
-    <xsd:sequence>
-      <xsd:element name="osoba">
+    <xsd:element name="test">
         <xsd:complexType>
-          <xsd:group ref="osoby"/>
+            <xsd:sequence>
+                <xsd:element name="osoba">
+                    <xsd:complexType>
+                        <xsd:group ref="osoby"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
         </xsd:complexType>
-      </xsd:element>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-
-  
-  <xsd:group name="adres">
-    <xsd:sequence>
-      <xsd:element name="miejsce" type="xsd:string"/>
-      <xsd:element name="ulica" type="xsd:string"/>
-      <xsd:element name="kod_pocztowy" type="xsd:string"/>
-    </xsd:sequence>
-  </xsd:group>
-  <xsd:group name="osoby">
-    <xsd:sequence>
-      <xsd:element name="imie" type="xsd:string"/>
-      <xsd:element name="nazwisko" type="xsd:string"/>
-      <xsd:element name="data_urodzenia" type="xsd:string"/>
-    </xsd:sequence>
-  </xsd:group>
-  <xsd:attributeGroup name="atrybuty">
-    <xsd:attribute name="NIP" type="xsd:string"/>
-    <xsd:attribute name="pesel" type="xsd:string"/>
-  </xsd:attributeGroup>
-</xsd:schema><!--
+    </xsd:element>
 
 
+    <xsd:group name="adres">
+        <xsd:sequence>
+            <xsd:element name="miejsce" type="xsd:string"/>
+            <xsd:element name="ulica" type="xsd:string"/>
+            <xsd:element name="kod_pocztowy" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:group>
+    <xsd:group name="osoby">
+        <xsd:sequence>
+            <xsd:element name="imie" type="xsd:string"/>
+            <xsd:element name="nazwisko" type="xsd:string"/>
+            <xsd:element name="data_urodzenia" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:group>
+    <xsd:attributeGroup name="atrybuty">
+        <xsd:attribute name="NIP" type="xsd:string"/>
+        <xsd:attribute name="pesel" type="xsd:string"/>
+    </xsd:attributeGroup>
+</xsd:schema>
+
+<!--
 Zadanie 2. Stwórz plik XML-Schema zawierający grupy elementów o nazwie adres (zawierającą elementy tj. miejsce, ulica, kod pocztowy itd.) i grupę elementów osoba (zawierającą imię, nazwisko, data urodzenia itp.) oraz grupę atrybutów składającą się z atrybutów NIP i pesel. Dodaj do utworzonych grup odpowiednie elementy i atrybuty. Przetestuj działanie na dowolnym pliku XML.
 -->

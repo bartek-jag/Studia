@@ -13,8 +13,6 @@
 	</xsd:element>
 </xsd:schema>
 
-
-
 <!--
 Zadanie 1. Stwórz plik XML-Schema zawierający deklarację elementów takich,
  że element główny o nazwie pracownik będzie zawierał elementy: imie, nazwisko, wiek, 

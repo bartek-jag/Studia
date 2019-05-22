@@ -13,8 +13,6 @@
 	</xsd:element>
 </xsd:schema>
 
-
-
 <!--
 Zadanie 4. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie szkola,
  będzie zawierał 3 elementy o nazwie nauczyciel lub element o nazwie dyrektor oraz 2 elementy o nazwie wicedyrektor.

@@ -1,9 +1,5 @@
-import org.w3c.dom.*;
-import org.w3c.dom.bootstrap.DOMImplementationRegistry;
-import org.w3c.dom.ls.DOMImplementationLS;
-import org.w3c.dom.ls.LSOutput;
-import org.w3c.dom.ls.LSParser;
-import org.w3c.dom.ls.LSSerializer;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -14,13 +10,11 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.io.FileOutputStream;
-
-// rejestr do tworzenia implementacji DOM
-// Implementacja DOM Level 3 Load & Save
 
 public class Zad3 {
     public static void main(String[] args) {
+
+        //Zadanie 3. Napisz program wykorzystujący DOM, który stworzy następujący plik XML (zad3.xml)
 
         try {
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
@@ -88,18 +82,10 @@ public class Zad3 {
             produkt.getElementsByTagName("cena").item(0).setTextContent("11.99");
             produkty.appendChild(produkt);
 
-
-            // create the xml file
-            //transform the DOM Object to an XML File
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource domSource = new DOMSource(document);
             StreamResult streamResult = new StreamResult(new File("new_zad3.xml"));
-
-            // If you use
-            // StreamResult result = new StreamResult(System.out);
-            // the output will be pushed to the standard output ...
-            // You can use that for debugging
 
             transformer.transform(domSource, streamResult);
 
@@ -108,11 +94,5 @@ public class Zad3 {
         } catch (ParserConfigurationException | TransformerException pce) {
             pce.printStackTrace();
         }
-    }
-
-    private static void printUsage() {
-        System.err.println("usage: java Dom3Demo uri");
-        System.err.println();
-        System.err.println("NOTE: You can only validate DOM tree against XML Schemas.");
     }
 }

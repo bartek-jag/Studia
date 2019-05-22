@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="lista" type="listaType"/>
+  <xs:complexType name="adresType">
+    <xs:sequence>
+      <xs:element name="miejsce">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Olsztyn"/>
+            <xs:enumeration value="Gdynia"/>
+            <xs:enumeration value="Katowice"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ulica">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Mietowa"/>
+            <xs:enumeration value="Jagodowa"/>
+            <xs:enumeration value="Morksa"/>
+            <xs:enumeration value="Juliusza"/>
+            <xs:enumeration value="Olsztynska"/>
+            <xs:enumeration value="Gdynska"/>
+            <xs:enumeration value="Mala"/>
+            <xs:enumeration value="Bulwara"/>
+            <xs:enumeration value="Mikolaja"/>
+            <xs:enumeration value="Bolicjusza"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="kod-pocztowy">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="10-214"/>
+            <xs:enumeration value="80-248"/>
+            <xs:enumeration value="10-645"/>
+            <xs:enumeration value="80-458"/>
+            <xs:enumeration value="10-678"/>
+            <xs:enumeration value="10-331"/>
+            <xs:enumeration value="40-331"/>
+            <xs:enumeration value="81-542"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="osobaType">
+    <xs:sequence>
+      <xs:element name="imie">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Nadia"/>
+            <xs:enumeration value="Ksawery"/>
+            <xs:enumeration value="Borys"/>
+            <xs:enumeration value="Balladyna"/>
+            <xs:enumeration value="Dafroza"/>
+            <xs:enumeration value="Abira"/>
+            <xs:enumeration value="Felin"/>
+            <xs:enumeration value="Grzymisława"/>
+            <xs:enumeration value="Benicjusz"/>
+            <xs:enumeration value="Długomił"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="nazwisko">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Ebacka"/>
+            <xs:enumeration value="Melon"/>
+            <xs:enumeration value="Pokrzyk"/>
+            <xs:enumeration value="Malina"/>
+            <xs:enumeration value="Trawnik"/>
+            <xs:enumeration value="Bogata"/>
+            <xs:enumeration value="Dziurawiec"/>
+            <xs:enumeration value="Chmiel"/>
+            <xs:enumeration value="Naparczywy"/>
+            <xs:enumeration value="Cytrynka"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="wiek">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="45"/>
+            <xs:enumeration value="24"/>
+            <xs:enumeration value="33"/>
+            <xs:enumeration value="68"/>
+            <xs:enumeration value="41"/>
+            <xs:enumeration value="27"/>
+            <xs:enumeration value="30"/>
+            <xs:enumeration value="35"/>
+            <xs:enumeration value="32"/>
+            <xs:enumeration value="44"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="adresType" name="adres"/>
+      <xs:element type="xs:string" name="opis" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listaType">
+    <xs:sequence>
+      <xs:element type="osobaType" name="osoba" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

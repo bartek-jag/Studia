@@ -1,42 +1,43 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="nauka">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element name="rodzaje">
-          <xsd:complexType>
+    <xsd:element name="nauka">
+        <xsd:complexType>
             <xsd:sequence>
-              <xsd:element name="rodzaj" type="xsd:string" maxOccurs="unbounded"/>
+                <xsd:element name="rodzaje">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="rodzaj" type="xsd:string" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="rzeczowniki">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="rzeczownik" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nazwa" type="xsd:string"/>
+                                        <xsd:element name="synonimy" type="xsd:string" minOccurs="0"/>
+                                        <xsd:element name="rodzaj" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
             </xsd:sequence>
-          </xsd:complexType>
-        </xsd:element>
-        <xsd:element name="rzeczowniki">
-          <xsd:complexType>
-            <xsd:sequence>
-              <xsd:element name="rzeczownik" maxOccurs="unbounded">
-                <xsd:complexType>
-                  <xsd:sequence>
-                    <xsd:element name="nazwa" type="xsd:string"/>
-                    <xsd:element name="synonimy" type="xsd:string" minOccurs="0"/>
-                    <xsd:element name="rodzaj" type="xsd:string"/>
-                  </xsd:sequence>
-                </xsd:complexType>
-              </xsd:element>
-            </xsd:sequence>
-          </xsd:complexType>
-        </xsd:element>
-      </xsd:sequence>
-    </xsd:complexType>
-    <xsd:key name="klucze">
-      <xsd:selector xpath="rodzaje/rodzaj"/>
-      <xsd:field xpath="."/>
-    </xsd:key>
-    <xsd:keyref name="refy" refer="klucze">
-      <xsd:selector xpath="rzeczowniki/rzeczownik"/>
-      <xsd:field xpath="rodzaj"/>
-    </xsd:keyref>
-  </xsd:element>
-</xsd:schema><!--
+        </xsd:complexType>
+        <xsd:key name="klucze">
+            <xsd:selector xpath="rodzaje/rodzaj"/>
+            <xsd:field xpath="."/>
+        </xsd:key>
+        <xsd:keyref name="refy" refer="klucze">
+            <xsd:selector xpath="rzeczowniki/rzeczownik"/>
+            <xsd:field xpath="rodzaj"/>
+        </xsd:keyref>
+    </xsd:element>
+</xsd:schema>
 
+<!--
 Zadanie 5. Dany jest plik XML. Skontruuj dla niego odpowiedni plik XML-Schema oraz popraw XML tak, aby do każdej rzeczy został przypisany rodzaj. Skorzystaj z możliwości pobrania klucza. Dodatkowo zadbaj o to, aby wartości nazwy rzeczowników i były unikatowe. Możesz zmodyfikować plik XML jedynie poprzez dodanie nazw rodzai.
 -->

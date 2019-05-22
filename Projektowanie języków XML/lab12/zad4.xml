@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grupy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zad4.xsd">
+	<grupa wartosc="min">
+		<liczba>1</liczba>
+		<liczba>2</liczba>
+		<liczba>3</liczba>
+	</grupa>
+	<grupa wartosc="max">
+		<liczba>45</liczba>
+		<liczba>0</liczba>
+		<liczba>0</liczba>
+		<liczba>0</liczba>
+		<liczba>0</liczba>
+	</grupa>
+	<grupa wartosc="min">
+		<liczba>2</liczba>
+		<liczba>5</liczba>
+		<liczba>3</liczba>
+		<liczba>7</liczba>
+	</grupa>
+	<grupa wartosc="max">
+		<liczba>10</liczba>
+		<liczba>22</liczba>
+		<liczba>8</liczba>
+	</grupa>
+	<grupa wartosc="max">
+		<liczba>9</liczba>
+		<liczba>23</liczba>
+		<liczba>12</liczba>
+		<liczba>1</liczba>
+	</grupa>
+	<grupa wartosc="max">
+		<liczba>3</liczba>
+		<liczba>1</liczba>
+		<liczba>7</liczba>
+		<liczba>3</liczba>
+		<liczba>10</liczba>
+	</grupa>
+	<grupa wartosc="min">
+		<liczba>0</liczba>
+		<liczba>1</liczba>
+		<liczba>5</liczba>
+	</grupa>
+</grupy>

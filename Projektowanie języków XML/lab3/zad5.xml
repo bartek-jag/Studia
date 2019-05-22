@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE glowny SYSTEM "zad5.dtd">
+
 <glowny>
 	<nazwa></nazwa>
 	<dzial>
@@ -7,7 +8,6 @@
 			<imie>Jan</imie>
 			<nazwisko>Kowalski</nazwisko>
 			<data_urodzenia>11.11.1111</data_urodzenia>
-
 		</pracownik>
 	</dzial>
 </glowny>

@@ -2,7 +2,6 @@
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<xsd:element name="glowny" type="elementy"/>
-
 	<xsd:complexType name="elementy">
 		<xsd:all>
 			<xsd:element name="element1" type="xsd:string" minOccurs="0" maxOccurs="1"/>
@@ -10,7 +9,6 @@
 			<xsd:element name="element3" type="xsd:string" minOccurs="0" maxOccurs="1"/>
 		</xsd:all>
 	</xsd:complexType>
-
 </xsd:schema>
 
 <!--

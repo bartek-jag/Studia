@@ -5,9 +5,9 @@
         <html>
             <head>
                 <style>
-        tr:nth-child(even) {background: yellow;}
-        tr:nth-child(odd) {background: cyan;}
-    </style>
+                    tr:nth-child(even) {background: yellow;}
+                    tr:nth-child(odd) {background: cyan;}
+                </style>
             </head>
             <body>
                 <xsl:for-each select="osoba[count(. | key('grupaID', grupa)[1]) = 1]">

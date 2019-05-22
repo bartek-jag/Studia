@@ -31,7 +31,6 @@
 
 </xsd:schema>
 
-
 <!--
 Zadanie 5. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie kolor, 
 będzie zawierał elementy o nazwie czerwony, zielony, niebieski kolejności, które będą zawierać liczbę naturalną z przedziału: 0 - 255.

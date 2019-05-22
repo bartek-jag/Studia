@@ -34,9 +34,6 @@
 	</xsd:simpleType>
 </xsd:schema>
 
-
-
-
 <!--
 Zadanie 7. Stwórz plik XML-Schema zawierający deklarację elementu głównego o
  nazwie punkty, który będzie zawierał listę 5-ciu liczb całkowitych z zakresu 0-10 lub napis "brak danych".

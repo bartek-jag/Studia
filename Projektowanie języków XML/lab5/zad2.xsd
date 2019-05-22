@@ -12,8 +12,6 @@
 	</xsd:element>
 </xsd:schema>
 
-
-
 <!--
 Zadanie 2. Stwórz plik XML-Schema zawierający deklarację elementów takich, że element główny o nazwie zamowienie będzie zawierał elementy:
 cena - występuje dokładnie raz.
@@ -21,5 +19,4 @@ adres - może raz, ale nie musi wystąpić.
 kontakt - może wystąpić wiele razy, ale nie musi.
 towar - występuje conajmniej raz i możę wystąpić maksymalnie 12 razy.
 Przetestuj działanie Schema na pliku XML.
-
 -->

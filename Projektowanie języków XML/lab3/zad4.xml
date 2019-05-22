@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE nauka SYSTEM "zad4.dtd">
 
-
 <nauka>
-    <rodzaje>
+	<rodzaje>
 		<rodzaj skrot="m">męski</rodzaj>
 		<rodzaj skrot="z">żeński</rodzaj>
 		<rodzaj skrot="n">nijaki</rodzaj>

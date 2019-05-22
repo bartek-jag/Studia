@@ -2,8 +2,6 @@
 
 <!ENTITY % zada SYSTEM "zad6a.dtd">
 <!ENTITY % zadb SYSTEM "zad6b.dtd">
-
-
 <!ELEMENT glowny ANY>
 
 %zada;

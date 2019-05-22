@@ -2,13 +2,12 @@
 <!DOCTYPE glowny SYSTEM "zad2.dtd">
 
 <glowny>
-<podrzedny atrybut1="a" atrybut2="cos" atrybut3="w1"></podrzedny>
-<podrzedny atrybut1="b" atrybut3="w1"></podrzedny>
-<podrzedny atrybut1="c" atrybut2="cos" atrybut3="w2"></podrzedny>
-<podrzedny atrybut1="d" atrybut2="cos"></podrzedny>
-<podrzedny atrybut1="e" atrybut3="w2"></podrzedny>
+    <podrzedny atrybut1="a" atrybut2="cos" atrybut3="w1"></podrzedny>
+    <podrzedny atrybut1="b" atrybut3="w1"></podrzedny>
+    <podrzedny atrybut1="c" atrybut2="cos" atrybut3="w2"></podrzedny>
+    <podrzedny atrybut1="d" atrybut2="cos"></podrzedny>
+    <podrzedny atrybut1="e" atrybut3="w2"></podrzedny>
 </glowny>
-
 
 
 <!--
